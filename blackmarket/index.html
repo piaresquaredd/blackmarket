@@ -1,18 +1,98 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1671.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Arial; color: #000000; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-  </style>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="main.css">
+<title>The totally official store</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+$(document).ready(function(){
+  $("#sekrit").hide();
+  $("#bruhh").click(function(){
+    $("#sekrit").slideToggle();
+  });
+});
+</script>
 </head>
-<body>
-<p class="p1"><span class="s1">WHEN THE</span></p>
-<p class="p1"><span class="s1">CAJUPUT OIL</span></p>
+<body style="padding:0px;">
+<div id="main">
+<div id="header">
+<h1>the store i guess</h1>
+<h2>buy something</h2>
+<h3>or else</3>
+</div>
+<div id="topnav">
+<span style="font-size:30px;cursor:pointer;color:white" onclick="openNav()">&#9776; More</span>
+</div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="about">About</a>
+  <a href="products">Products</a>
+  <a href="clients">Clients</a>
+  <a href="contact">Contact</a>
+  <a href="https://forms.gle/JFa4hReufzwYryrs5">Feedback</a>
+</div>
+ <div class="row">
+  <div class="maindiv">
+   <div class="card" id="card1">
+    <h1>featured stuff</h1>
+   </div>
+   <a href="tankbattleimg.png">
+   <div class="card" id="card2">
+    <h2 style="text-decoration:none;font-size:37px;text-align:center;">Tank Battle Special Edition</h2>
+    <img src="tankbattleimg.png" class="asdf" style="height:100%;width:100%;display:block;margin:auto;">
+    <p style="text-decoration:none;text-align:center;">The standard game but with more features and a wood trim</p>
+   </div>
+  </a>
+  <div class="card" id="card3">
+   <h2>The Blender Donut</h2>
+   <h5>Fresh from the server</h5>
+   <img src="untitled.png" class="imagesb" style="height:50%;">
+   <p>69 donuts for 42.00 usd</p>
+   <p>so yeah buy em or else</p>
+  </div>
+  <div class="card" id="card4">
+  <h2>Jelly car (WIP)</h2>
+  <h5>made of 100% real jelly</h5>
+  <a href="carjelly2.png">
+   <img src="carjelly2.png" class="imagesb">
+  </a>
+  <p>idk</p>
+  <p>go admire it or smthin</p>
+ </div>
+<div class="card" id="card5">
+   <h2>the end of the black market</h2>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/ZfJw8fBT_Eg">
+    </iframe>
+   <p>idk</p>
+  </div>
+ </div>
+ <div class="seconddiv">
+  <div class="card" id="minicard1">
+   <p>More Stuff</p>
+   <img src="untitled.png" style="height:100%;width:100%;">
+  </div>
+  <div class="card" id="minicard2">
+   <p>social media stuff i guess</p>
+   <a href="https://twitter.com"><button class="twitterbutton">i dunno twitter</button></a>
+  </div>
+ </div>
+</div>
+<div id="footer">
+<p>placeholder text replace soon</p>
+<button id="bruhh">hey there pls click me</button>
+</div>
+<div id="sekrit">
+<a href="recoverboi"><img src="marsalaib.png" style="width:100%;height:100%;"></a>
+</div>
+</div>
 </body>
-</html>

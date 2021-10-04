@@ -1,0 +1,215 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+  transition: margin-left .5s;
+}
+
+#bruhh {
+  opacity: 0.0;
+}
+
+#bruhh:hover {
+  opacity: 1.0;
+}
+
+.maindiv {
+  float: left;
+  width: 75%;
+  transition: margin-left .5s;
+}
+
+.seconddiv {
+  float: right;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+  transition: margin-left .5s;
+}
+
+.imagesb {
+  width: 50%;
+  padding: 20px;
+  transition: margin-left .5s;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  transition: margin-left .5s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.closebtn {
+  color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.twitterbutton {
+  background-color: lightblue; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  transition: margin-left .5s;
+}
+
+.twitterbutton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .maindiv, .seconddiv {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+#bruh1 {
+  margin: auto;
+}
+
+#bruh2 {
+  margin: 25px 600px 25px;
+}
+
+#bruh3 {
+  margin: 25px 600px 25px;
+}
+
+#breh {
+  text-align: auto;
+}
+
+#footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  margin-top: 20px;
+  transition: margin-left .5s;
+}
+
+#footer a:link {
+  background-color: white;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#footer a:hover {
+  background-color: #f1f1f1;
+}
+
+#header {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  transition: margin-left .5s;
+}
+
+#header h1 {
+  font-size: 50px;
+}
+
+#topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin: 0px 0px 0px;
+  transition: margin-left .5s;
+}
+
+#animatebutton {
+  background-color: #333;
+  border: none;
+  color: #f2f2f2;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#animatebutton:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#hehehe {
+  margin: 0px 0px 0px;
+  overflow: hidden;
+  background-color: white;
+}
+
+#hehehe img:hover {
+  opacity: 0.5; 
+}
+  
+#diepls {
+  margin: 0px;
+  text-align: center;
+}
+
+#sekrit {
+  margin: 0px;
+}
